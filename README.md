@@ -15,17 +15,17 @@
 ### 步骤说明
 <br/>0. 在群辉中安装好Web Station跟EMBY
 <br/>1. 打开Web Station如图所示新建虚拟主机
-<br><img src="https://github.com/s1oz/embyonekey/blob/master/webstation.png"><br>
+<br><img src="https://github.com/PoiYuudachi/embyonekey/blob/master/webstation.png"><br>
 <br/>2. 打开群辉控制面板-安全性-证书
 <br/>点击新建-添加新证书-导入证书-选择下载的私钥跟证书
 <br/>证书下载地址
 ```
-https://raw.githubusercontent.com/s1oz/embyonekey/master/mb3admin.com.cert.pem
-https://raw.githubusercontent.com/s1oz/embyonekey/master/mb3admin.com.key.pem
+https://raw.githubusercontent.com/PoiYuudachi/embyonekey/master/mb3admin.com.cert.pem
+https://raw.githubusercontent.com/PoiYuudachi/embyonekey/master/mb3admin.com.key.pem
 ```
-<br><img src="https://github.com/s1oz/embyonekey/blob/master/cert0.png"><br>
+<br><img src="https://github.com/PoiYuudachi/embyonekey/blob/master/cert0.png"><br>
 <br/>3. 保存后在配置中将mb3admin.com的证书设置为刚导入的的证书
-<br><img src="https://github.com/s1oz/embyonekey/blob/master/cert1.png"><br>
+<br><img src="https://github.com/PoiYuudachi/embyonekey/blob/master/cert1.png"><br>
 
 
 #### 劫持mb3admin伪站
@@ -61,7 +61,7 @@ https://raw.githubusercontent.com/s1oz/embyonekey/master/mb3admin.com.key.pem
 
 
 以root用户执行命令：<br/>
-</p><pre><code>wget -N --no-check-certificate "https://raw.githubusercontent.com/s1oz/embyonekey/master/embyonekey.sh" && chmod +x embyonekey.sh && ./embyonekey.sh</code></pre>
+</p><pre><code>wget -N --no-check-certificate "https://raw.githubusercontent.com/PoiYuudachi/embyonekey/master/embyonekey.sh" && chmod +x embyonekey.sh && ./embyonekey.sh</code></pre>
 
 <br/>运行完毕
 <br/>可以输入以下命令测试
@@ -80,21 +80,21 @@ ssh中运行命令查看是否正确返回值
 
 <br/>如图,打开即可拥有会员黄标
 <br/>
-<br/>![](https://github.com/s1oz/embyonekey/blob/master/ko.png)
+<br/>![](https://github.com/PoiYuudachi/embyonekey/blob/master/ko.png)
 <br/>
 <br/>在Emby Premiere中输入任何秘钥都可以激活成功
 <br/>
-<br/>![](https://github.com/s1oz/embyonekey/blob/master/ko1.png)
+<br/>![](https://github.com/PoiYuudachi/embyonekey/blob/master/ko1.png)
 
 #### 客户端证书安装
 如服务器正常白嫖后,客户端还是无法正确显示,一般是证书不正确,请在客户端安装证书
 ```
-https://raw.githubusercontent.com/s1oz/embyonekey/master/guomi.cer 
+https://raw.githubusercontent.com/PoiYuudachi/embyonekey/master/guomi.cer 
 ```
 下载此链接文件名为guomi.cer的证书文件后安装相应设备上
 
 Windows请安装此目录下
-<br/>![](https://github.com/s1oz/embyonekey/blob/master/window.png)
+<br/>![](https://github.com/PoiYuudachi/embyonekey/blob/master/window.png)
 
 <br/>IOS需要安装后在设置--通用--关于手机--证书信任设置中把证书信任
 
